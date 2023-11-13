@@ -1,0 +1,39 @@
+:root {
+  --fullW: 100%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+body, html, #root {
+  height: var(--fullW);
+  width: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: 3px solid black; */
+}
+
+.header-section, .main-section, .footer-section {
+  width: 100%;
+}
+
+.header-section {
+  border: 2px solid orange;
+}
+
+.main-section {
+  border: 2px solid red;
+}
+
+.footer-section {
+  border: 2px solid green;
+}

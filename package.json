@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "0.0.1",
+  "description": "portfolio",
+  "main": "server.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio"
+  ],
+  "author": "Michael Ion",
+  "license": "MIT"
+}
