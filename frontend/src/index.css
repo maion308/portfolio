@@ -19,21 +19,24 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* background-color: #3b3b3b; */
   /* border: 3px solid black; */
 }
 
 .header-section, .main-section, .footer-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 100%;
+  min-height: 20%;
 }
 
-.header-section {
-  border: 2px solid orange;
+:where(.header-section, .footer-section) {
+  height: 20%;
+  /* border: 2px solid red; */
 }
 
 .main-section {
-  border: 2px solid red;
-}
-
-.footer-section {
-  border: 2px solid green;
+  height: 60%;
 }
