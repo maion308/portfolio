@@ -3,5 +3,6 @@ export const data = {
     lastname: "Ion",
     email: "michael.ion.mi@outlook.com",
     phone: "646-431-6815",
-    profileImage: '/assets/m_red_smile.png'
+    profileImage: '../public/assets/images/reference10.png',
+    speech_bubble: '../public/assets/images/speech_bubble.png'
 }

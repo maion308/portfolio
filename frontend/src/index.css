@@ -9,6 +9,8 @@
   list-style-type: none;
 }
 
+
+
 body, html, #root {
   height: var(--fullW);
   width: 100%;
@@ -19,8 +21,12 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /* background-color: #3b3b3b; */
-  /* border: 3px solid black; */
+  background-color: #F8F8FF;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
 }
 
 .header-section, .main-section, .footer-section {
@@ -29,14 +35,56 @@ body {
   justify-content: center;
   align-items: center;
   width: 100%;
-  min-height: 20%;
+  font-family: 'Orbitron', sans-serif;
 }
 
 :where(.header-section, .footer-section) {
-  height: 20%;
-  /* border: 2px solid red; */
+  height: 15%;
 }
 
+:where(header, h1, footer) {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+}
+
+header {
+  justify-content: center;
+  padding: 3px;
+}
+
+.header-h1 {
+  justify-content: space-around;
+}
+
+
 .main-section {
-  height: 60%;
+  height: 70%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 10%;
+  overflow: auto;
+}
+
+
+
+h3 {
+  text-decoration: underline;
+}
+
+
+
+footer {
+  justify-content: space-around;
+  align-items: center;
+  color: white;
 }

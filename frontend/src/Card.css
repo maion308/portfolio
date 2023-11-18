@@ -1,0 +1,49 @@
+
+
+.card-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 60%;
+  
+
+}
+
+.card-container {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    min-height: fit-content;
+    border-bottom: 1px dotted black;
+}
+
+.image {
+    width: 25%;
+    height: 50%;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: all 0.33s ease-in-out;
+}
+
+.image:hover {
+    transform: perspective(1000px) translateZ(350px);
+}
+
+.text-container p::first-letter {
+    font-size: 32px;
+}
+
+.text-container :where(p) {
+    text-indent: 20px;
+}
+
+div#info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
